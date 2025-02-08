@@ -1,0 +1,206 @@
+/*  first task */
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stake,.kebabs,.Us {
+  display: flex;
+  flex-direction: column;
+}
+a:hover{
+  color: blue;
+  transition: 0.3s;
+}
+
+nav,ul,li,a {
+  flex-basis: 20%;
+}
+/* second task */
+#slideshow {
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 300px;
+  border-radius: 15px;
+  border-style: dotted;
+   border-color:#7b0404;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav,ul,li{
+    flex-basis: 10%;
+    text-align: left;
+  }
+  #slideshow,.slide{
+   width:200px;
+   height: 200px;
+
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .stake,.kebabs,.Us {
+    flex-direction: column;
+  }
+}
+/* second task */
+
+
+
+
+
+
+
+
+
+
+
+/*  old stuff      */
+
+header {
+    color: white;
+    background:  url(TOMAHAWK_STEAKS_03_30_2215823.jpg) no-repeat center center;
+    background-size: cover; 
+    text-align: center;
+    padding-bottom:0.5em; 
+    padding-top: 7em;
+  }
+  .menu{
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+    font-size: 450%;
+    text-shadow:3px 2px #000000;
+    color: rgb(239, 4, 4);
+  }
+
+nav{
+
+    background-color: rgba(123, 80, 80, 0.725);
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    width:1590px;
+  }
+  nav,a{
+    color: black;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+ 
+ header h1{
+     font-size: 90px;
+     text-shadow: 2px 4px #fef7f7;
+     color: rgb(255, 18, 18);
+    
+ }
+ header p{
+    font-size:30px ;
+    background-color: rgba(240, 248, 255, 0.577);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+ }
+ .stake{
+  max-width: 600px;
+  color: #fc0000;
+  border:20px double #ddb15f ;
+  border-radius: 23px;
+  padding: 1em;
+  background-color: rgb(137, 116, 116);
+ }
+  #steak{
+    width: 29%;
+    float:left;
+    margin-left:25px;
+    
+  }
+  main{
+    padding-top: 60px;
+     font-family: sans-serif;
+     font-size: 18px;
+     line-height: 1.8em;
+  }
+  main p{
+    margin-bottom: 0.5%;
+    font-size: 20px;
+    color: black;
+
+  }
+  .Us{
+    max-width: 600px;
+    margin-bottom: 10%;
+   color: #fc0000;
+   border:20px double #ddb15f ;
+   border-radius: 23px;
+   padding: 1em;
+   
+   background-color: rgb(137, 116, 116);
+  }
+  #tom{
+    max-width: 35%;
+  }
+  .kebabs{
+    max-width: 600px;
+    margin-bottom: 10%;
+    color: #fc0000;
+   border:20px double #ddb15f ;
+   border-radius: 23px;
+   padding: 1em;
+   background-color: rgb(137, 116, 116); ;
+       
+  }
+  #turk{
+    max-width:35%;
+  }
+
+  .bio{
+      
+    padding-bottom: 30%;
+    padding-top: 20%;
+    font-style: italic;
+    font-size: larger;
+    color: #000000;
+  }
+
+footer{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #ff0000;
+  text-align: center;
+  font-size: 18px;
+  border: 8px double;
+  border-radius: 5pxs;
+  border-color: #000000;
+  background-color: rgb(243, 181, 181);
+}
+footer img{
+  max-width: 1.5%;
+}
+
+body{
+  background-color: #ccb07f;
+}
